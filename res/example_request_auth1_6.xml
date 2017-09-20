@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><Auth xmlns="http://www.uidai.gov.in/authentication/uid-auth-request/1.0" ac="public" lk="MEaMX8fkRa6PqsqK6wGMrEXcXFl_oXHA-YuknI2uf0gKgZ80HaZgG3A" sa="public" tid="public" txn="AuthDemoClient:public:20170920123026395" uid="999999990019" ver="1.6"><Uses bio="n" otp="n" pa="n" pfa="n" pi="n" pin="n"/><Meta fdc="NC" idc="NA" lot="P" lov="560103" pip="127.0.0.1" udc="UIDAI:SampleClient"/><Skey ci="20200916" ki="cbcd0c48-e470-40fb-a0df-bbff578a1130">Bt1aNU1JuxWdZp8v1eFfLQbipIHFs6mDQN/8Q8wHhs2ApslNicc5PxgYFcLY7c8HDkN8RNjAoxVg3/JiaETWj67FgtY0l5QtakzSaQP9QFmpcIfbliLlLum9Kc2XEcAckQ0J0tzhlX7N+uZyVFYuL6UfHa9oXJ5m6CHPf2ueMspxKhZxzq2u2qwVwH3G379UVUIzjYPw/sYN7Vu19sJ+BMbTR8WaGYvAcDmo1Acu6+h0H2KylxJEVNCDQLk+rDC+IX2KeD4LpjOA96n3yZLNIOQEYBAL13oA4FTfsXtnuZ3g+ciG3LK7SBnNS4DY1HnSFsAbALy+fUAsbCW1lH5iLw==</Skey><Data type="P">8h5CwDL6KD6I5jEebp1ip0SmXyUcWA2r/S9IGsL8xeP77ekR9Q0AgdFOLuV+OOtGsUe3j+9SGux6nkZniBSuGA==</Data><Hmac>WWM6q0hLepW8B2wjEZAq36/nfmprcZVqcHwvJhtKm883S8HB/MOUBHxjCM/rcMEY</Hmac><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>lVqf2l7PcTZM7AASa2FM//svkdI=</DigestValue></Reference></SignedInfo><SignatureValue>UoM4CELZZL89T14wH2IkAGleZ6MsX/jv5Dlc05Berc/4ZIDay04G6Hx4YuZJXeg+paww90Q4m2mF
+j0xSikxnv6Bc/O0Y2o/e3XrNJmAouv28mK9F3g808PlBdKxx2HzYrNQjPV8IcW6zRhoaSSRqM2ZY
+div8C+qM67JEdGBPAtSr/EAllg0hkaMqtkqZWZGwHwuaXR6+tVH6GZF6On/IBBmNjoZoTAdkJ+y6
+DU8gilbSjtTgi8TK/hjyqjuDW86D0M4DxNErXTPtBbLxeIJ3lHj1nTbcuHqYVCsWMkzoYYt1fz3A
+Cte0ad5zmq25PqDIdKSs41fjBMrXgQL954s0vA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Public AUA for Staging Services,OU=Staging Services,O=Public AUA,L=Bangalore,ST=KA,C=IN</X509SubjectName><X509Certificate>MIIDuDCCAqCgAwIBAgIGA7J+eqryMA0GCSqGSIb3DQEBBQUAMIGNMQswCQYDVQQGEwJJTjELMAkG
+A1UECBMCS0ExEjAQBgNVBAcTCUJhbmdhbG9yZTETMBEGA1UEChMKUHVibGljIEFVQTEZMBcGA1UE
+CxMQU3RhZ2luZyBTZXJ2aWNlczEtMCsGA1UEAxMkUm9vdCBQdWJsaWMgQVVBIGZvciBTdGFnaW5n
+IFNlcnZpY2VzMB4XDTE2MDUyNDE0NDAzMVoXDTIwMDUyNDE0NDAzMVowgYgxCzAJBgNVBAYTAklO
+MQswCQYDVQQIEwJLQTESMBAGA1UEBxMJQmFuZ2Fsb3JlMRMwEQYDVQQKEwpQdWJsaWMgQVVBMRkw
+FwYDVQQLExBTdGFnaW5nIFNlcnZpY2VzMSgwJgYDVQQDEx9QdWJsaWMgQVVBIGZvciBTdGFnaW5n
+IFNlcnZpY2VzMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAo4XxOsjK58Ud+tQd06Mk
+8Rd0qoyjA/3u+y0YVYEF6RgT8Ge1uVdTkIcVYaHyXuuHUPLLqGW1hPfVtn81UVIMGyrw5+t1c30w
+pGv3UJ6GCFu0sPGgG5NwkVbIUt2xgT/Or/kGzHjUJJy4Y6URSkZiDLDQQWRXvui5ZwwsYRJ8LhT0
+pSUwan1raG5Vl01GmlWVqsrCmnObuoYkN85iwG4/ERGshkgFCPak8B/jH3GPZSi1+FJLmCqMI1xx
+mTvf0kZb7ejm2IZFTo6ecYWJ1vylkzUI553RxVbnHCNZvFe3AyaKMyFlknFR0Fkl5+9Lpxz+VOaj
+bCjicg7jIYCw76/xgQIDAQABoyEwHzAdBgNVHQ4EFgQUJHLir1/Tel8v/6OuIXpLS0JH8jIwDQYJ
+KoZIhvcNAQEFBQADggEBAFE15qMGIlp8+M306FbhDEvo1vzxN2Pfvg/f92NXH59d2XZ/wuHxugL8
+qfcM5xkqsDeIRVxRdISpwiIWlqTitn6lenF85bvPQ09T/b09dVz/LxwU2Cm6+6H5/HZSoLtCKBOu
+RzAKQdxczpyfaqv9caFC+LegPQIm2HCwOM0A4KzhYcFhumGeyCbyVZsSQcJE7bYc/IHkR2erup7h
+5BACOZ/a+hHLPQok/uGvtEsR3roydNcNlR8Ja6Wc4eUf7kisTuZTxwRJI9DPVimbs0VAqhnsnVWA
+K3X4+6sFUq5WfHS4wTRhrR93JvEV5LlQ6UCXYOQMvTii8l07qxkDiysVsLQ=</X509Certificate></X509Data></KeyInfo></Signature></Auth>
