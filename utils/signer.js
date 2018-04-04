@@ -8,13 +8,14 @@ const js2xml = require('js2xmlparser');
 const constants = require('./constants.js');
 
 const SIG_XPATH_ALL = '/*';
-const SIG_ALGO_RSASHA1 = 'http://www.w3.org/2000/09/xmldsig#rsa-sha1';
+// const SIG_ALGO_RSASHA1 = 'http://www.w3.org/2000/09/xmldsig#rsa-sha1';
 const SIG_TRANSFORM_ENVELOPED = 'http://www.w3.org/2000/09/xmldsig#enveloped-signature';
 const SIG_CANON_XMLC14N = 'http://www.w3.org/TR/2001/REC-xml-c14n-20010315';
-const SIG_DIGEST_SHA1 = 'http://www.w3.org/2000/09/xmldsig#sha1';
+const SIG_DIGEST_SHA1 = 'http://www.w3.org/2001/04/xmlenc#sha256'; //'http://www.w3.org/2000/09/xmldsig#sha1';
 
 const SIG_XPATH_SIGNATURE = "/*/*[local-name(.)='Signature' and namespace-uri(.)='http://www.w3.org/2000/09/xmldsig#']";
 
+const SIG_ALGO_RSASHA1 = 'http://www.w3.org/2001/04/xmldsig-more#rsa-sha256';
 var readP12 = new Promise(
     function(resolve, reject) {
         let password = 'public';
@@ -40,7 +41,7 @@ var readP12 = new Promise(
         //    let pkPem = forge.pki.privateKeyToPem(pkP12);
         //    console.log(pkPem);
     }
-    );
+);
 
 let cert;
 let certInfo = '';
@@ -159,3 +160,7 @@ exports.sign = function(xml) {
         });
     })
 }
+
+var xml = '<upi:RespPay xmlns:upi="http://npci.org/upi/schema/"><Head ver="1.0" ts="2015-01-16T14:15:47+05:30" orgId="npci" msgId="2"/><Txn id="8ENSVVR4QOS7X1UGPY7JGUV444PL9T2C3QM" note="Sending money for your use" ts="2015-01-16T14:15:42+05:30" type="PAY"><RiskScores><Score provider="sp" type="TXNRISK" value=""/><Score provider="npci" type="TXNRISK" value=""/></RiskScores></Txn><Resp reqMsgId="1" result="SUCCESS" approvalNum="3MKBVB"><Ref type="PAYER" seqNum="1" addr="kbhokray@upi" settAmount="5000" approvalNum="AWHWU9" /><Ref type="PAYEE" seqNum="2" addr="manager@upi" settAmount="5000" approvalNum="ESOP61" /></Resp></upi:RespPay>';
+
+// sign(xml);
