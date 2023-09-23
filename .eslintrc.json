@@ -1,0 +1,33 @@
+{
+  "extends": [
+    "airbnb",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": [
+    "prettier"
+  ],
+  "rules": {
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "packageDir": "./"
+      }
+    ],
+    "import/prefer-default-export": "off",
+    "no-underscore-dangle": "off",
+    "no-continue": "off",
+    "no-unused-expressions": [
+      "error",
+      {
+        "allowShortCircuit": true
+      }
+    ],
+    "prettier/prettier": [
+      "error"
+    ],
+    "react/no-string-refs": "off",
+    "no-bitwise": 0,
+    "import/no-cycle": "off",
+    "no-param-reassign": "off"
+  }
+}
