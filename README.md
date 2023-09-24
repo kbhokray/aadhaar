@@ -1,4 +1,4 @@
-I have cleaned up the code a little bit and added some beginner-friendly information about the authentication used in the Auth service in the authv2.5 branch
+I have cleaned up the code a little, updated it for v2.5 and added some beginner-friendly information about the cryptography used in the Auth service in the authv2.5 branch
 
 # Aadhaar
 
