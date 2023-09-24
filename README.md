@@ -1,3 +1,5 @@
+I have cleaned up the code a little bit and added some beginner-friendly information about the authentication used in the Auth service in the authv2.5 branch
+
 # Aadhaar
 
 Nodejs code for Aadhaar OTP 1.5, 1.6 and Aadhaar Auth 1.6, 2.0 APIs. All test certificates are included, so, it just works :). A part of the project depends on open-ssl. Make sure you have that. Feel free to fork / create PRs. I'll keep updating if it is useful
